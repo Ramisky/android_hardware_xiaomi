@@ -10,7 +10,7 @@
 #include <sys/_system_properties.h>
 #include <vector>
 
-#include <xiaomi_utils.h>
+#include <include/xiaomi_utils.h>
 
 void property_override(std::string prop, std::string value, bool add) {
     auto pi = (prop_info *) __system_property_find(prop.c_str());

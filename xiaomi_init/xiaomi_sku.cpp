@@ -8,8 +8,8 @@
 
 #include <android-base/properties.h>
 
-#include <xiaomi_utils.h>
-#include <xiaomi_sku.h>
+#include <include/xiaomi_utils.h>
+#include <include/xiaomi_sku.h>
 
 using android::base::GetProperty;
 
