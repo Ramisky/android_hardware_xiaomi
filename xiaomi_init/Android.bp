@@ -1,0 +1,13 @@
+//
+// Copyright (C) 2023 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_binary {
+    name: "xiaomi_init",
+    init_rc: ["xiaomi_init.rc"],
+    srcs: ["xiaomi_init.cpp"],
+    shared_libs: ["libbase"],
+    vendor: true,
+}

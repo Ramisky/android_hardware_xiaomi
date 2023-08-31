@@ -1,0 +1,5 @@
+service vendor.xiaomi_init /vendor/bin/xiaomi_init
+    class main
+    user root
+    group system
+    oneshot
